@@ -1,0 +1,16 @@
+.elemento-no-centro{
+  text-align: center;
+}
+
+.plano-de-fundo{
+  /* background-color: #81ecec; */
+  background-image: url("foto.jpg");
+}
+
+.texto-branco{
+   color: white;
+}
+
+.sombra-texto{
+  text-shadow: 0.1em 0.1em 0.05em #333;
+}
