@@ -7,28 +7,36 @@
     <meta name="author" content="Matheus Yago Fernandes Chadud">
     <meta name="description" content="Primeira atividade do curso!">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   </head>
   <body class="plano-de-fundo">
-    <header>
-      <div class="container-fluid">
-        <!-- Título da página -->
-        <h1 class="elemento-no-centro texto-branco sombra-texto">Meu primeiro curso de Front-end</h1>
-        <!-- Subtítulo -->
-        <h3 class="elemento-no-centro texto-branco sombra-texto">Matheus Yago Fernandes Chadud</h3>
+    <header class="plano-de-fundo">
+      <div class="container">
+        <div class="intro-text">
+          <!-- Título da página -->
+          <h1 class="elemento-no-centro texto-branco sombra-texto">Meu primeiro curso de Front-end</h1>
+          <!-- Subtítulo -->
+          <h3 class="elemento-no-centro texto-branco sombra-texto">Matheus Yago Fernandes Chadud</h3>
+
+        </div>
       </div>
-    </heard>
+    </header>
+
+    <!-- Título da página -->
+    <!-- <h1 class="elemento-no-centro texto-branco sombra-texto">Meu primeiro curso de Front-end</h1> -->
+    <!-- Subtítulo -->
+    <!-- <h3 class="elemento-no-centro texto-branco sombra-texto">Matheus Yago Fernandes Chadud</h3> -->
 
     <section>
       <div class="container">
         <div class="row">
 
-          <div class="col-md-6">
+          <div class="col-sm-4">
             <!-- Imagem  -->
-            <img src="img/Matheus.jpg">
+            <img src="img/Matheus.jpg" class= "img-responsive img-circle>"
           </div>
 
-          <div class="col-md-6">
+          <div class="col-sm-8">
             <!-- Parágrafo; a tag b coloca em negriyo; a tag i coloca em italico -->
             <p class="texto-branco sombra-texto">Sou matheus, estou <i>cursando engenharia da computação</i> e meu objetivo nesse curso
                é aprender programação web, que ajudará na minha carreira futuramente,</p>
@@ -46,12 +54,14 @@
             <p class="texto-branco sombra-texto">Para acessar meu facebook <a target="_blank" href="https://www.facebook.com/yago.fernandes.3975012">clique aqui</a></p>
            </div>
 
-          </div>
         </div>
+      </div>
     </section>
 
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="vendor/jquery/jquery-3.3.1min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 
   </body>
 </html>

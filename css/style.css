@@ -5,6 +5,15 @@
 .plano-de-fundo{
   /* background-color: #81ecec; */
   background-image: url("../img/foto.jpg");
+  /* color: rgb(255, 255, 255); */
+  /* background-color: rgb(255, 255, 255); */
+  /* background-repeat: no-repeat; */
+  /*
+  /* background-position: center; */
+  /* background-position: width: 1083px; */
+  /* background-image: url("../img/Plano-de-fundo2.png"); */
+  /* background-color: #34495E; */
+
 }
 
 .texto-branco{
@@ -13,4 +22,13 @@
 
 .sombra-texto{
   text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
